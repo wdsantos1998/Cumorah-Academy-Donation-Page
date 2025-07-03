@@ -41,8 +41,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <div className="flex justify-center md:col-span-1">
+        <div className="flex flex-col gap-8">
+          <div className="flex justify-center w-full">
             <DonationThermometer />
           </div>
 
